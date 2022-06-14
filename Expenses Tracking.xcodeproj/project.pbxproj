@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63999E982858DACC0032E413 /* TransactionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63999E972858DACC0032E413 /* TransactionListViewModel.swift */; };
 		63EC045E2857455900381E49 /* Expenses_TrackingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EC045D2857455900381E49 /* Expenses_TrackingApp.swift */; };
 		63EC04602857455900381E49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EC045F2857455900381E49 /* ContentView.swift */; };
 		63EC04622857455A00381E49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63EC04612857455A00381E49 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		63999E972858DACC0032E413 /* TransactionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewModel.swift; sourceTree = "<group>"; };
 		63EC045A2857455900381E49 /* Expenses Tracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Expenses Tracking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63EC045D2857455900381E49 /* Expenses_TrackingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses_TrackingApp.swift; sourceTree = "<group>"; };
 		63EC045F2857455900381E49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				63EC045F2857455900381E49 /* ContentView.swift */,
 				63EC047128574EDB00381E49 /* TransactionRow.swift */,
 				63EC046B2857485700381E49 /* Extensions.swift */,
+				63999E972858DACC0032E413 /* TransactionListViewModel.swift */,
 				63EC046D28574BED00381E49 /* TransactionModel.swift */,
 				63EC04612857455A00381E49 /* Assets.xcassets */,
 				63EC04632857455A00381E49 /* Preview Content */,
@@ -162,6 +165,7 @@
 				63EC04602857455900381E49 /* ContentView.swift in Sources */,
 				63EC047228574EDB00381E49 /* TransactionRow.swift in Sources */,
 				63EC046C2857485700381E49 /* Extensions.swift in Sources */,
+				63999E982858DACC0032E413 /* TransactionListViewModel.swift in Sources */,
 				63EC045E2857455900381E49 /* Expenses_TrackingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
