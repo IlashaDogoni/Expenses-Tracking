@@ -75,10 +75,10 @@
 				63EC045F2857455900381E49 /* ContentView.swift */,
 				63406BEE285B57420049A2E9 /* RecentTransactionList .swift */,
 				63EC047128574EDB00381E49 /* TransactionRow.swift */,
-				63EC046B2857485700381E49 /* Extensions.swift */,
 				63999E972858DACC0032E413 /* TransactionListViewModel.swift */,
 				6313B4002860ACE5002749D8 /* TransactionList.swift */,
 				63EC046D28574BED00381E49 /* TransactionModel.swift */,
+				63EC046B2857485700381E49 /* Extensions.swift */,
 				63EC04612857455A00381E49 /* Assets.xcassets */,
 				63EC04632857455A00381E49 /* Preview Content */,
 			);
