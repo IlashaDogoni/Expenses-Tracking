@@ -65,11 +65,13 @@ final class TransactionListViewModel : ObservableObject {
         print("DateInterval", dateInterval)
         
         var sum: Double = .zero
+        
         var cumulativeSum = TransactionPrefixSum()
         for date in stride(from: dateInterval.start, through: today, by: 60 * 60 * 24) {
             let dailyExpenses = transactions.filter { $0.dateParsed == date && $0.isExpense}
             let dailyTotal = dailyExpenses.reduce(0) {$0 - $1.signedAmount}
             sum += dailyTotal
+            sum = sum.roundedTo2Digits()
             cumulativeSum.append((date.formatted(), sum))
             print(date.formatted(), "dailyTotal:", dailyTotal, "sum:", sum)
         }
